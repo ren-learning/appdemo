@@ -5,4 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print getting
-        run: echo "hi"
+        run: |
+          echo "First output."
+          echo "Second output."
